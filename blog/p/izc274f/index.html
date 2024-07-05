@@ -22,6 +22,17 @@
 }
 
 </script>
+    <script>
+        window.onload = function() {
+            var password = prompt('パスワードを入力してください:');
+            var correctPassword = '85175'; 
+          
+            if (password !== correctPassword) {
+                alert('パスワードが間違っています。');
+                window.location.href = 'https://www.yahoo.co.jp'; 
+            }
+        };
+    </script>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
